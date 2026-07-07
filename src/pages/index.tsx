@@ -21,10 +21,11 @@ export default function LawPortfolio() {
           <div className="text-2xl font-bold tracking-tighter text-white">
             RK<span className="text-amber-500">.</span>
           </div>
-          <div className="hidden md:flex space-x-8 text-xs font-bold tracking-widest uppercase text-slate-400">
+          <div className="hidden md:flex space-x-6 text-xs font-bold tracking-widest uppercase text-slate-400">
             <a href="#about" className="hover:text-amber-500 transition-colors">About</a>
             <a href="#accolades" className="hover:text-amber-500 transition-colors">Accolades</a>
             <a href="#experience" className="hover:text-amber-500 transition-colors">Experience</a>
+            <a href="#certifications" className="hover:text-amber-500 transition-colors">Certifications</a>
             <a href="#articles" className="hover:text-amber-500 transition-colors">Publications</a>
           </div>
         </div>
@@ -84,6 +85,7 @@ export default function LawPortfolio() {
                 <div className="flex flex-wrap gap-2 mt-2">
                   <span className="px-3 py-1 bg-white/10 rounded-md text-xs text-white">M&A</span>
                   <span className="px-3 py-1 bg-white/10 rounded-md text-xs text-white">Corporate Law</span>
+                  <span className="px-3 py-1 bg-white/10 rounded-md text-xs text-white mt-1">Dispute Resolution</span>
                 </div>
               </div>
             </div>
@@ -108,7 +110,7 @@ export default function LawPortfolio() {
             </div>
           </div>
 
-          {/* 4. Accolades & Achievements - ALIGNMENT FIXED */}
+          {/* 4. Accolades & Achievements */}
           <div id="accolades" className="md:col-span-5 bg-white/5 border border-white/10 rounded-3xl p-8 md:p-10 backdrop-blur-sm flex flex-col">
             <h2 className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-8">Accolades</h2>
             <div className="space-y-6">
@@ -129,7 +131,7 @@ export default function LawPortfolio() {
                 </div>
                 <div>
                   <h4 className="text-white font-bold text-md mb-1">Moot Court Competitions</h4>
-                  <p className="text-sm text-slate-400 leading-relaxed">University level (2025) & CPJ, GGSIPU, Delhi (2024)</p>
+                  <p className="text-sm text-slate-400 leading-relaxed">Quarter Finalists 6th ICFAI Inter University Moot Court, 2025</p>
                 </div>
               </div>
 
@@ -139,7 +141,7 @@ export default function LawPortfolio() {
                 </div>
                 <div>
                   <h4 className="text-white font-bold text-md mb-1">Himalaya Calling Summit</h4>
-                  <p className="text-sm text-slate-400 leading-relaxed">Presented "Leadership Initiatives in Valley" (2024)</p>
+                  <p className="text-sm text-slate-400 leading-relaxed">Presented "Leadership Initiatives in Himalayan Region..." (2024)</p>
                 </div>
               </div>
 
@@ -189,7 +191,73 @@ export default function LawPortfolio() {
               <h3 className="text-xl font-bold text-white mb-2">Insolvency & Bankruptcy Law Intern</h3>
               <p className="text-slate-400 font-medium">Harshit Khare Law Offices, New Delhi</p>
             </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors cursor-default">
+              <span className="text-slate-500 text-sm font-bold tracking-widest uppercase mb-2 block">Completed · Jul 2025</span>
+              <h3 className="text-xl font-bold text-white mb-2">Dispute Resolution Intern</h3>
+              <p className="text-slate-400 font-medium">Kathpalia & Partners, New Delhi</p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors cursor-default">
+              <span className="text-slate-500 text-sm font-bold tracking-widest uppercase mb-2 block">Completed · Jun 2025</span>
+              <h3 className="text-xl font-bold text-white mb-2">Intern</h3>
+              <p className="text-slate-400 font-medium">Department of Finance, Secretariat, Govt. of Bihar</p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors cursor-default">
+              <span className="text-slate-500 text-sm font-bold tracking-widest uppercase mb-2 block">Completed · Jul 2024</span>
+              <h3 className="text-xl font-bold text-white mb-2">Pro Bono Initiative Intern</h3>
+              <p className="text-slate-400 font-medium">Nyaysarthak, New Delhi</p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors cursor-default">
+              <span className="text-slate-500 text-sm font-bold tracking-widest uppercase mb-2 block">Completed · Jun 2024</span>
+              <h3 className="text-xl font-bold text-white mb-2">Intern</h3>
+              <p className="text-slate-400 font-medium">District & Sessions Court, Patna</p>
+            </div>
             
+          </div>
+        </div>
+
+        {/* Certifications Section */}
+        <div id="certifications" className="mt-32">
+          <div className="flex items-center gap-4 mb-12">
+            <h2 className="text-3xl font-bold text-white">Certifications</h2>
+            <div className="h-px bg-white/10 flex-grow"></div>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <div className="bg-white/5 border border-amber-500/30 rounded-2xl p-8 hover:bg-white/10 transition-colors cursor-default">
+              <span className="text-amber-500 text-sm font-bold tracking-widest uppercase mb-2 block">Ongoing</span>
+              <h3 className="text-lg font-bold text-white mb-2">Certificate Course in Business Law</h3>
+              <p className="text-slate-400 text-sm">London School of Finance</p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors cursor-default">
+              <span className="text-slate-500 text-sm font-bold tracking-widest uppercase mb-2 block">Jan 2026</span>
+              <h3 className="text-lg font-bold text-white mb-2">Business Ethics: Exploring Big Data & Tax Avoidance</h3>
+              <p className="text-slate-400 text-sm">University of Leeds</p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors cursor-default">
+              <span className="text-slate-500 text-sm font-bold tracking-widest uppercase mb-2 block">Nov 2025</span>
+              <h3 className="text-lg font-bold text-white mb-2">Business Law and The Fashion Industry</h3>
+              <p className="text-slate-400 text-sm">Bloomsbury Publishing</p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors cursor-default">
+              <span className="text-slate-500 text-sm font-bold tracking-widest uppercase mb-2 block">Sep 2025</span>
+              <h3 className="text-lg font-bold text-white mb-2">SEBI Investor Awareness Test</h3>
+              <p className="text-slate-400 text-sm">Score: 49/50</p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors cursor-default md:col-span-2 lg:col-span-1">
+              <span className="text-slate-500 text-sm font-bold tracking-widest uppercase mb-2 block">Oct 2024</span>
+              <h3 className="text-lg font-bold text-white mb-2">Basics of Mergers & Acquisitions</h3>
+              <p className="text-slate-400 text-sm">Conducted by Khaitan & Co. at UPES School of Law</p>
+            </div>
+
           </div>
         </div>
 
