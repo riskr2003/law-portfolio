@@ -563,7 +563,7 @@ export default function EditorialPortfolio() {
 
             <div className="flex flex-col border-t border-[#333]">
               
-              <a href="https://juscholars.com" target="_blank" className="flex flex-col md:flex-row gap-6 border-b border-[#333] py-10 hover:bg-[#1A1D1E] transition-colors group cursor-pointer px-4 -mx-4">
+              <a href="https://juscholars.com/demergers-and-value-unlocking-the-conglomerate-split-trend/" target="_blank" className="flex flex-col md:flex-row gap-6 border-b border-[#333] py-10 hover:bg-[#1A1D1E] transition-colors group cursor-pointer px-4 -mx-4">
                 <div className="w-16 shrink-0 text-[10px] font-bold tracking-[0.2em] text-[#666]">01</div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-serif text-white mb-3">Demergers and Value Unlocking: The Conglomerate Split Trend</h3>
@@ -578,8 +578,7 @@ export default function EditorialPortfolio() {
                 </div>
               </a>
 
-              <a href="https://taxguru.in" target="_blank" className="flex flex-col md:flex-row gap-6 border-b border-[#333] py-10 hover:bg-[#1A1D1E] transition-colors group cursor-pointer px-4 -mx-4">
-                <div className="w-16 shrink-0 text-[10px] font-bold tracking-[0.2em] text-[#666]">02</div>
+              <a href="https://taxguru.in/corporate-law/merger-control-india-cci-companies-act-competition-act.html" target="_blank" className="flex flex-col md:flex-row gap-6 border-b border-[#333] py-10 hover:bg-[#1A1D1E] transition-colors group cursor-pointer px-4 -mx-4">
                 <div className="flex-1">
                   <h3 className="text-2xl font-serif text-white mb-3">Merger Control in India — Analysis of the CCI Regulatory Framework under CA, 2013</h3>
                   <div className="text-sm text-[#888]">Taxguru</div>
@@ -593,8 +592,7 @@ export default function EditorialPortfolio() {
                 </div>
               </a>
 
-              <a href="https://taxguru.in" target="_blank" className="flex flex-col md:flex-row gap-6 border-b border-[#333] py-10 hover:bg-[#1A1D1E] transition-colors group cursor-pointer px-4 -mx-4">
-                <div className="w-16 shrink-0 text-[10px] font-bold tracking-[0.2em] text-[#666]">03</div>
+              <a href="https://taxguru.in/corporate-law/corporate-governance-csr-indias-evolving-mandate.html" target="_blank" className="flex flex-col md:flex-row gap-6 border-b border-[#333] py-10 hover:bg-[#1A1D1E] transition-colors group cursor-pointer px-4 -mx-4">
                 <div className="flex-1">
                   <h3 className="text-2xl font-serif text-white mb-3">Corporate Governance & CSR — India's Evolving Mandate</h3>
                   <div className="text-sm text-[#888]">Taxguru</div>
@@ -608,7 +606,7 @@ export default function EditorialPortfolio() {
                 </div>
               </a>
 
-              <a href="#" className="flex flex-col md:flex-row gap-6 border-b border-[#333] py-10 hover:bg-[#1A1D1E] transition-colors group cursor-pointer px-4 -mx-4">
+              <a href="https://www.flipkart.com/law-relating-inheritance-succession-wills-waqf/p/itm65440acca7b31?pid=9789368845164&lid=LSTBOK9789368845164YMGRZT&marketplace=FLIPKART" target="_blank" className="flex flex-col md:flex-row gap-6 border-b border-[#333] py-10 hover:bg-[#1A1D1E] transition-colors group cursor-pointer px-4 -mx-4">
                 <div className="w-16 shrink-0 text-[10px] font-bold tracking-[0.2em] text-[#666]">04</div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-serif text-white mb-3">Streedhan & Women's Right to Property</h3>
